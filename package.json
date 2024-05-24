@@ -1,17 +1,19 @@
 {
-  "name": "docuassist-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "docuassist",
+  "version": "0.0.1 Beta",
+  "description": "CLI tool for managing Docusaurus documentation and vector store ingestion.",
+  "main": "lib/commands.js",
+  "bin": {
+    "docuassist": "./bin/docuassist-cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^12.1.0",
-    "fs-extra": "^11.2.0",
-    "openai": "^4.47.1"
+    "commander": "^9.0.0",
+    "fs-extra": "^10.0.0",
+    "openai": "^3.0.0"
   }
 }

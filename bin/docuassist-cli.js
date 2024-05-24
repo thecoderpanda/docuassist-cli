@@ -2,6 +2,8 @@
 
 const { program } = require('commander');
 const { initPlugin, ingestDocs, CheckTest } = require('../lib/commands');
+const { version } = require('../package.json');
+
 
 program
   .command('plugin init')
