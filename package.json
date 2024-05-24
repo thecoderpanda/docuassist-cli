@@ -1,6 +1,6 @@
 {
   "name": "docuassist",
-  "version": "0.0.1 Beta",
+  "version": "0.0.1",
   "description": "CLI tool for managing Docusaurus documentation and vector store ingestion.",
   "main": "lib/commands.js",
   "bin": {
