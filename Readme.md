@@ -1,10 +1,8 @@
-Sure, here is a detailed and comprehensive README.md file for the `docuassist` CLI tool:
-
-### `README.md`
-
 # DocuAssist CLI
 
-DocuAssist is a CLI tool for managing Docusaurus documentation and vector store ingestion. It provides commands to install a plugin and ingest documents into a vector store.
+DocuAssist is a CLI tool for managing Docuassist Docusaurus GPT Chatbot Plugin for documentation and vector store ingestion. It provides commands to install a plugin and ingest documents into a vector store.
+
+> Please note: The Plugin is yet to be published and should be live by next week. The CLI is live and can be tested to Vector Store ingestion. 
 
 ## Table of Contents
 
