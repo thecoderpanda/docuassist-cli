@@ -4,6 +4,11 @@ const { program } = require('commander');
 const { initPlugin, ingestDocs, CheckTest } = require('../lib/commands');
 const { version } = require('../package.json');
 
+program
+  .version(version, '-v, --version', 'Output the current version')
+  .command('version')
+  .description('Install plugin in the Docusaurus directory')
+  .action(initPlugin);
 
 program
   .command('plugin init')
